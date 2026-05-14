@@ -1,0 +1,615 @@
+[
+  {
+    "airtable_id": "snapshot-member-alex-sanchez-7230439477",
+    "name": "Alex Sanchez",
+    "aliases": [
+      "Alex Sanchez",
+      "Alex",
+      "Sanchez",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "asanchez@global.t-bird.edu",
+    "linkedin": "linkedin.com/in/alex-sánchez-garcía-46543a24",
+    "raw_hash": "308d143dd09bc2d12eb9a8bc84d459f1360fb2fb7fde4c5d382b6b142bfb4531"
+  },
+  {
+    "airtable_id": "snapshot-member-andrew-high-fa7a64c26e",
+    "name": "Andrew High",
+    "aliases": [
+      "Andrew High",
+      "Andrew",
+      "High",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "andrew.high@thevalleycom.org",
+    "linkedin": "https://www.linkedin.com/in/andrew-high/",
+    "raw_hash": "fe846154fa2f63c62d11f3aa06efb571cb0dcfc6096935f89014482f2e3c47c9"
+  },
+  {
+    "airtable_id": "snapshot-member-andrew-ostrander-942b27851c",
+    "name": "Andrew Ostrander",
+    "aliases": [
+      "Andrew Ostrander",
+      "Andrew",
+      "Ostrander",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "andrewoaz@cox.net",
+    "linkedin": null,
+    "raw_hash": "c57cedf074c0bf5c49c24aa0690295dff67295ba59cb92bb5ae8a1345e8ddd30"
+  },
+  {
+    "airtable_id": "snapshot-member-andy-lombard-b07c9cdbbe",
+    "name": "Andy Lombard",
+    "aliases": [
+      "Andy Lombard",
+      "Andy",
+      "Lombard",
+      "InvestU Members,AVC"
+    ],
+    "related_organization": "InvestU Members,AVC",
+    "email": "andy@azventurecap.com",
+    "linkedin": null,
+    "raw_hash": "0ed57a0266840b47a89b3c61f0ba33ff0b4ac2fda34a89cd00c10f1dc5dfa589"
+  },
+  {
+    "airtable_id": "snapshot-member-avc-98ae154fff",
+    "name": "AVC",
+    "aliases": [
+      "AVC"
+    ],
+    "related_organization": null,
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "c65b7530824e56ad1ef19e4e065154e041c31fbe3f6b37aae1f183b00d83f368"
+  },
+  {
+    "airtable_id": "snapshot-member-bernie-eshel-1c0d6a5dad",
+    "name": "Bernie Eshel",
+    "aliases": [
+      "Bernie Eshel",
+      "Bernie",
+      "Eshel",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "brndoggy@yahoo.com",
+    "linkedin": null,
+    "raw_hash": "1df3afd40f19c337360d33d35f24fa45268ae26f9b1cfa387c9dc129d81fb285"
+  },
+  {
+    "airtable_id": "snapshot-member-brad-repp-208ac499cf",
+    "name": "Brad Repp",
+    "aliases": [
+      "Brad Repp",
+      "Brad",
+      "Repp",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "a6ec27d035d6f543a8c0f8bda2715c0393eec749a70f618900796c6b6f228957"
+  },
+  {
+    "airtable_id": "snapshot-member-charles-sholtis-5f492d5044",
+    "name": "Charles Sholtis",
+    "aliases": [
+      "Charles Sholtis",
+      "Charles",
+      "Sholtis",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "casholtis@gmail.com",
+    "linkedin": "www.linkedin.com/in/casholtis",
+    "raw_hash": "bf16beed0da1aa4decd4646eca9fd904497a8d52c5a699299315aa1d50af00d2"
+  },
+  {
+    "airtable_id": "snapshot-member-chris-yoo-e3b170417b",
+    "name": "Chris Yoo",
+    "aliases": [
+      "Chris Yoo",
+      "Chris",
+      "Yoo",
+      "Xcellerant Ventures,College of Health Solutions"
+    ],
+    "related_organization": "Xcellerant Ventures,College of Health Solutions",
+    "email": null,
+    "linkedin": "https://www.linkedin.com/in/chrisyoophd/",
+    "raw_hash": "be5236b90ab6da01c4772bf66a9bfaae3ae2119021666e51cf9ca86c75117224"
+  },
+  {
+    "airtable_id": "snapshot-member-christine-carvalho-1b38f5169a",
+    "name": "Christine Carvalho",
+    "aliases": [
+      "Christine Carvalho",
+      "Christine",
+      "Carvalho",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "christine.carvalho@asuep.org",
+    "linkedin": null,
+    "raw_hash": "bf2b26d59f0b3cc603123057c55d29d3a6dd8da623778d2ff45b0b12dbb2dd2c"
+  },
+  {
+    "airtable_id": "snapshot-member-dan-ling-ad4419404a",
+    "name": "Dan Ling",
+    "aliases": [
+      "Dan Ling",
+      "Dan",
+      "Ling",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "a67e9e3e5a3b21a10b7219eddf6a1e1e797f07c9d59a9f6185aa25030fb59742"
+  },
+  {
+    "airtable_id": "snapshot-member-eric-christine-gilo-8203d36b36",
+    "name": "Eric & Christine Gilo",
+    "aliases": [
+      "Eric & Christine Gilo",
+      "Eric",
+      "Christine",
+      "Gilo",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "6e3e041705ca27c9119bf210205d851018a44e15acdc0eb697800457c919644f"
+  },
+  {
+    "airtable_id": "snapshot-member-ganesh-acharya-3d9ba4c820",
+    "name": "Ganesh Acharya",
+    "aliases": [
+      "Ganesh Acharya",
+      "Ganesh",
+      "Acharya",
+      "Genesis Medical Management,InvestU Members"
+    ],
+    "related_organization": "Genesis Medical Management,InvestU Members",
+    "email": "GACHARYA@GENESISMM.COM",
+    "linkedin": null,
+    "raw_hash": "6970ea0e8fe9edfb0011a267bffaf1619738032bd89b88758549be30a5ce124d"
+  },
+  {
+    "airtable_id": "snapshot-member-gary-gibbons-c9fd533513",
+    "name": "Gary Gibbons",
+    "aliases": [
+      "Gary Gibbons",
+      "Gary",
+      "Gibbons",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "gary@coleridgegroup.com",
+    "linkedin": null,
+    "raw_hash": "ebb818446a1070409e6540e1633c283566b1604c339c2159ef0eb2f0cb177535"
+  },
+  {
+    "airtable_id": "snapshot-member-hamid-shojaee-2ea68712d9",
+    "name": "Hamid Shojaee",
+    "aliases": [
+      "Hamid Shojaee",
+      "Hamid",
+      "Shojaee",
+      "AZ Disruptors,InvestU Members"
+    ],
+    "related_organization": "AZ Disruptors,InvestU Members",
+    "email": "hamid@shojaee.com",
+    "linkedin": "https://www.linkedin.com/in/hamidshojaee/",
+    "raw_hash": "24d918283212bcb31c56776ff445c6cb21a58e34fbb86e5c1ac01f1f7e27dc5f"
+  },
+  {
+    "airtable_id": "snapshot-member-jason-hagen-7e493667a9",
+    "name": "Jason Hagen",
+    "aliases": [
+      "Jason Hagen",
+      "Jason",
+      "Hagen",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "332484b3da9597cc202d2581e0511a627696d3ced2acd5c06c6cf58094c0513e"
+  },
+  {
+    "airtable_id": "snapshot-member-jeff-manelis-632d8ca03f",
+    "name": "Jeff Manelis",
+    "aliases": [
+      "Jeff Manelis",
+      "Jeff",
+      "Manelis",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "ca38227feb7b79a56adf961c57b089a8c2f327776ff6576e4f739f13b319526c"
+  },
+  {
+    "airtable_id": "snapshot-member-jeffrey-lang-9050d53916",
+    "name": "Jeffrey Lang",
+    "aliases": [
+      "Jeffrey Lang",
+      "Jeffrey",
+      "Lang",
+      "Desert Angels,InvestU Members"
+    ],
+    "related_organization": "Desert Angels,InvestU Members",
+    "email": "chairman@desertangels.org",
+    "linkedin": "https://www.linkedin.com/in/jeffrey-s-lang-2870971/",
+    "raw_hash": "35b6ff84275bec1e0b707a999a349d21763e36a07a3c2f28a6c34b8ebf2cd175"
+  },
+  {
+    "airtable_id": "snapshot-member-jeremy-meek-5dfa226f45",
+    "name": "Jeremy Meek",
+    "aliases": [
+      "Jeremy Meek",
+      "Jeremy",
+      "Meek",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "jeremy@teamdsc.com",
+    "linkedin": null,
+    "raw_hash": "db153ae067c748b4d09ec153055a9c791c2f941f1ce265107285dc1ad34240b6"
+  },
+  {
+    "airtable_id": "snapshot-member-jim-davidson-fa09a3c30f",
+    "name": "Jim Davidson",
+    "aliases": [
+      "Jim Davidson",
+      "Jim",
+      "Davidson",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "jdavidson@allvalleycare.com",
+    "linkedin": null,
+    "raw_hash": "2e71b084a57b561f22b4e0c3dd5530049754e3aaa40d7cf5df6f27c345e8b03d"
+  },
+  {
+    "airtable_id": "snapshot-member-jim-waldrop-4d90a50711",
+    "name": "Jim Waldrop",
+    "aliases": [
+      "Jim Waldrop",
+      "Jim",
+      "Waldrop",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "waldropjh@gmail.com",
+    "linkedin": null,
+    "raw_hash": "7f25fd4003b8a880edd08d14e91eefcda51ed16bed9aac09114e6c0757052a44"
+  },
+  {
+    "airtable_id": "snapshot-member-jon-berman-cff571b926",
+    "name": "Jon Berman",
+    "aliases": [
+      "Jon Berman",
+      "Jon",
+      "Berman"
+    ],
+    "related_organization": null,
+    "email": "jmberman321@att.net",
+    "linkedin": null,
+    "raw_hash": "e9ef72d9e993f002bba889cbda54f31215e0f5bd9d19ad0be2ef12813bc985a9"
+  },
+  {
+    "airtable_id": "snapshot-member-jonathan-berman-076c316d55",
+    "name": "Jonathan Berman",
+    "aliases": [
+      "Jonathan Berman",
+      "Jonathan",
+      "Berman",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "jmberman321@att.net",
+    "linkedin": "https://www.linkedin.com/in/jonathanmberman/",
+    "raw_hash": "4fa08f83dab4c0cfe05808f888d6f1d004f934d5667204e477ca86fe08c23113"
+  },
+  {
+    "airtable_id": "snapshot-member-justin-bayless-31b334f23e",
+    "name": "Justin Bayless",
+    "aliases": [
+      "Justin Bayless",
+      "Justin",
+      "Bayless",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "JB@tenfigures.com",
+    "linkedin": null,
+    "raw_hash": "3bc706823a9e7f44ce701c8ec58bbae97a3a9d9bfe1a06ad49d5c9812a97b592"
+  },
+  {
+    "airtable_id": "snapshot-member-justin-gray-1ed219c607",
+    "name": "Justin Gray",
+    "aliases": [
+      "Justin Gray",
+      "Justin",
+      "Gray",
+      "InvestU Members,In Revenue Capital"
+    ],
+    "related_organization": "InvestU Members,In Revenue Capital",
+    "email": "jgray@inrevenue.capital",
+    "linkedin": "https://www.linkedin.com/company/in-revenue-capital",
+    "raw_hash": "d84bb7cab40b07edc0c2c9b603c4621d633ca4df78e03b38b29c2b26aa4be1de"
+  },
+  {
+    "airtable_id": "snapshot-member-marc-isaacs-f220ad8291",
+    "name": "Marc Isaacs",
+    "aliases": [
+      "Marc Isaacs",
+      "Marc",
+      "Isaacs",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "msi4phx@gmail.com",
+    "linkedin": null,
+    "raw_hash": "f9a347db05ae794d58927b62c1b814150b3c0f219334eb5cb3519e0d4d24ee0b"
+  },
+  {
+    "airtable_id": "snapshot-member-marius-van-gijlswijk-61123aa535",
+    "name": "Marius van Gijlswijk",
+    "aliases": [
+      "Marius van Gijlswijk",
+      "Marius",
+      "van",
+      "Gijlswijk",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "marius@mactcapital.com",
+    "linkedin": "https://www.linkedin.com/in/marius-van-gijlswijk-ba7744/",
+    "raw_hash": "bb7cac86e999e3f9386f3ff282d735dcdf86d3f07f54dfcc0a9475d7c7b310af"
+  },
+  {
+    "airtable_id": "snapshot-member-mark-goldberg-e76354f059",
+    "name": "mark goldberg",
+    "aliases": [
+      "mark goldberg",
+      "mark",
+      "goldberg",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "markgoldberg1972@hotmail.com",
+    "linkedin": null,
+    "raw_hash": "d91930918ef183ee9311f46db47c2cad4a0fb5e50cd2123d75fc160b298131b6"
+  },
+  {
+    "airtable_id": "snapshot-member-michael-adkins-d1bbcd756f",
+    "name": "Michael Adkins",
+    "aliases": [
+      "Michael Adkins",
+      "Michael",
+      "Adkins",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "moadkins@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/michael-o-adkins-md-fasa-7315665b/",
+    "raw_hash": "9720454e20ceaca68ac5ced4bac9c852e6bc31ca25afaf26b46ad05b4d409422"
+  },
+  {
+    "airtable_id": "snapshot-member-michael-delena-bb8d060156",
+    "name": "Michael D'Elena",
+    "aliases": [
+      "Michael D'Elena",
+      "Michael",
+      "D'Elena",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "mike@housed.com",
+    "linkedin": "https://www.linkedin.com/in/mikedelena/",
+    "raw_hash": "91b46d34b77dc9bf65609d727f6f60ed1d6769335fe7e385bf81980e1778b7d7"
+  },
+  {
+    "airtable_id": "snapshot-member-molly-iarocci-fb87781eae",
+    "name": "Molly Iarocci",
+    "aliases": [
+      "Molly Iarocci",
+      "Molly",
+      "Iarocci",
+      "InvestU Members,DCA Asset Management"
+    ],
+    "related_organization": "InvestU Members,DCA Asset Management",
+    "email": "mmi.dcaam@gmail.com",
+    "linkedin": null,
+    "raw_hash": "6c2357cf65870d8dabd7d7037e61bb4e80e4f027f392bae4a1496e6331e78029"
+  },
+  {
+    "airtable_id": "snapshot-member-paul-frantz-fd47f822e1",
+    "name": "Paul Frantz",
+    "aliases": [
+      "Paul Frantz",
+      "Paul",
+      "Frantz"
+    ],
+    "related_organization": null,
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "46a53402be0aa011acfbc1dd7cd416aab438464ee53fea48a2940e8c7c904c9e"
+  },
+  {
+    "airtable_id": "snapshot-member-peter-hovis-2570c3101d",
+    "name": "Peter Hovis",
+    "aliases": [
+      "Peter Hovis",
+      "Peter",
+      "Hovis",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "peter.hovis@gmail.com",
+    "linkedin": null,
+    "raw_hash": "de38b90553f452c7b0bbcb51b0e74511a5e43a8ba5a8d3cb1741453e4749057e"
+  },
+  {
+    "airtable_id": "snapshot-member-peter-tochet-0edcc8e986",
+    "name": "Peter Tochet",
+    "aliases": [
+      "Peter Tochet",
+      "Peter",
+      "Tochet",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "peter.tochet@outlook.com",
+    "linkedin": null,
+    "raw_hash": "5665a45d2fe3be448fb0d0948bcb73ab907e84515b3cc034293e063160e6c712"
+  },
+  {
+    "airtable_id": "snapshot-member-rahul-poddar-be000366b0",
+    "name": "Rahul Poddar",
+    "aliases": [
+      "Rahul Poddar",
+      "Rahul",
+      "Poddar",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "rahul.a.poddar@gmail.com",
+    "linkedin": null,
+    "raw_hash": "db04c6efe576f5c4f4ff1d77e1d315f407146db457a10d3e820d015e8daba1f4"
+  },
+  {
+    "airtable_id": "snapshot-member-rashad-jazzar-e9941ce160",
+    "name": "Rashad Jazzar",
+    "aliases": [
+      "Rashad Jazzar",
+      "Rashad",
+      "Jazzar",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "rashad@hhbgroup.net",
+    "linkedin": null,
+    "raw_hash": "ab1b7d35d8af3e427f1786a4bbd557acb6dd92b60b12b45c8ae39627d1ddf3b3"
+  },
+  {
+    "airtable_id": "snapshot-member-richard-boals-d8312a50df",
+    "name": "Richard Boals",
+    "aliases": [
+      "Richard Boals",
+      "Richard",
+      "Boals",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "rboals@cox.net",
+    "linkedin": null,
+    "raw_hash": "e8b59883d7f6519292bd5eed267c85112bee3a31c9fa72e7ae47ad5a088562d3"
+  },
+  {
+    "airtable_id": "snapshot-member-ronald-m-boninger-714bb656a4",
+    "name": "Ronald M Boninger",
+    "aliases": [
+      "Ronald M Boninger",
+      "Ronald",
+      "Boninger",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "rboninger@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/ron-boninger-b04337121/",
+    "raw_hash": "0f2702a018959d28f1bfc23fed404480249d1bc7f18aca3b7d07001ec8c185ec"
+  },
+  {
+    "airtable_id": "snapshot-member-ruminder-dhillon-a77cfb10cb",
+    "name": "Ruminder Dhillon",
+    "aliases": [
+      "Ruminder Dhillon",
+      "Ruminder",
+      "Dhillon",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "romi@sonoranfund.com",
+    "linkedin": null,
+    "raw_hash": "984c0459c10a255b96eafc79aebb5ac7cdad9bc263218dd2b0ea4cce37af735e"
+  },
+  {
+    "airtable_id": "snapshot-member-scott-anderson-5cfa91dc62",
+    "name": "Scott Anderson",
+    "aliases": [
+      "Scott Anderson",
+      "Scott",
+      "Anderson",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": null,
+    "linkedin": null,
+    "raw_hash": "bc51f88e100a83e7b82eabd8196d9850321e35508216d8e712543c4813b49bff"
+  },
+  {
+    "airtable_id": "snapshot-member-scott-davis-ad2a304b60",
+    "name": "Scott Davis",
+    "aliases": [
+      "Scott Davis",
+      "Scott",
+      "Davis",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "scott_davis@post.harvard.edu",
+    "linkedin": null,
+    "raw_hash": "f42d32b5a3a772f55ac70c8b4582380556c43e121f8a799ecbc926811f1271ce"
+  },
+  {
+    "airtable_id": "snapshot-member-steve-lockard-1ac1348bec",
+    "name": "Steve Lockard",
+    "aliases": [
+      "Steve Lockard",
+      "Steve",
+      "Lockard",
+      "Good Work Capital,InvestU Members"
+    ],
+    "related_organization": "Good Work Capital,InvestU Members",
+    "email": "lockard102@outlook.com",
+    "linkedin": null,
+    "raw_hash": "7958fa73a9194bac2fdac0953926a92629e1120d73c75259313f9e1c1bb916bc"
+  },
+  {
+    "airtable_id": "snapshot-member-tanner-german-be88ed119f",
+    "name": "Tanner German",
+    "aliases": [
+      "Tanner German",
+      "Tanner",
+      "German",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "tanner@personalizedfinancial.com",
+    "linkedin": "https://www.linkedin.com/in/tanner-german-82674498/",
+    "raw_hash": "394ee194e795c9494043b1db58b8b208dab0c284bc14f9bab9e1b3e558aad796"
+  },
+  {
+    "airtable_id": "snapshot-member-william-feldmeier-9e6e288719",
+    "name": "William Feldmeier",
+    "aliases": [
+      "William Feldmeier",
+      "William",
+      "Feldmeier",
+      "InvestU Members"
+    ],
+    "related_organization": "InvestU Members",
+    "email": "wfeld48@gmail.com",
+    "linkedin": null,
+    "raw_hash": "c7c42ee09e63d327f732b16b442f4b8a245642b5176653b5a094cad1a8c388d9"
+  }
+]

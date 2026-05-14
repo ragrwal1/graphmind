@@ -1,0 +1,18 @@
+{
+  "name": "RealmSpark",
+  "short_name": "RealmSpark",
+  "description": "Voice-first VC member memory",
+  "start_url": "/mobile",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f4ee",
+  "theme_color": "#5c1228",
+  "icons": [
+    {
+      "src": "/realmspark-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
