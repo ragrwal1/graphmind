@@ -21,6 +21,7 @@ const token = process.env.AIRTABLE_TOKEN ?? process.env.AIRTABLE_API_TOKEN;
 const baseId = process.env.AIRTABLE_BASE_ID;
 const cronSecret = process.env.CRON_SECRET;
 const appUrl = process.env.APP_URL ?? process.env.NEXT_PUBLIC_APP_URL ?? process.env.VERCEL_URL;
+const vercelProtectionBypassToken = process.env.VERCEL_PROTECTION_BYPASS_TOKEN;
 
 if (!token) throw new Error("Missing AIRTABLE_TOKEN or AIRTABLE_API_TOKEN.");
 if (!baseId) throw new Error("Missing AIRTABLE_BASE_ID.");
@@ -30,6 +31,9 @@ if (!appUrl) throw new Error("Missing APP_URL, NEXT_PUBLIC_APP_URL, or VERCEL_UR
 const origin = appUrl.startsWith("http") ? appUrl : `https://${appUrl}`;
 const notificationUrl = new URL("/api/airtable/webhook", origin);
 notificationUrl.searchParams.set("secret", cronSecret);
+if (vercelProtectionBypassToken) {
+  notificationUrl.searchParams.set("x-vercel-protection-bypass", vercelProtectionBypassToken);
+}
 
 const targets = [
   {
