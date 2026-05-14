@@ -2,6 +2,10 @@
 -- This is intentionally idempotent so GitHub-backed Supabase migrations can
 -- repair projects that were linked after the original search migration landed.
 
+alter table companies add column if not exists website text;
+alter table companies add column if not exists contact_email text;
+alter table companies add column if not exists source_organization text;
+
 create index if not exists companies_embedding_ivfflat_idx
   on companies using ivfflat (embedding vector_cosine_ops)
   with (lists = 50)
