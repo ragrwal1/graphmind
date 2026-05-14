@@ -47,24 +47,41 @@ export function MobileSearch({ trigger, expanded, onClose }: Props) {
   // ── Fetch results whenever query or searchType changes ──────────────────────
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
+    const trimmedQuery = query.trim();
+
+    if (!trimmedQuery) {
+      setLoading(false);
+      setResults([]);
+      return;
+    }
+
+    const controller = new AbortController();
+
     debounceRef.current = setTimeout(async () => {
       setLoading(true);
       try {
         const types = TYPE_MAP[searchType].join(",");
         const res = await fetch(
-          `/api/search?q=${encodeURIComponent(query)}&types=${encodeURIComponent(types)}`
+          `/api/search?q=${encodeURIComponent(trimmedQuery)}&types=${encodeURIComponent(types)}`,
+          { signal: controller.signal }
         );
         const data = await res.json();
         setResults(data.results ?? []);
-      } catch {
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
         setResults([]);
       } finally {
-        setLoading(false);
+        if (!controller.signal.aborted) {
+          setLoading(false);
+        }
       }
     }, 220);
 
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
+      controller.abort();
     };
   }, [query, searchType]);
 

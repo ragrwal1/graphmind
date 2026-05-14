@@ -24,9 +24,17 @@ const normalize = (value: string) => value.toLowerCase().trim();
 const fieldIncludes = (field: string | null | undefined, query: string) =>
   Boolean(field && normalize(field).includes(query));
 
+const LIST_CACHE_MS = Number(process.env.SEARCH_LIST_CACHE_MS ?? "30000");
+
+let companiesCache: { expiresAt: number; rows: CompanySeed[] } | null = null;
+
 export async function getCompanies(): Promise<CompanySeed[]> {
   if (!hasSupabaseAdminConfig()) {
     return [];
+  }
+
+  if (companiesCache && companiesCache.expiresAt > Date.now()) {
+    return companiesCache.rows;
   }
 
   // NOTE: website / contact_email / source_organization are added by migration
@@ -53,7 +61,9 @@ export async function getCompanies(): Promise<CompanySeed[]> {
     return [];
   }
 
-  return (await response.json()) as CompanySeed[];
+  const rows = (await response.json()) as CompanySeed[];
+  companiesCache = { expiresAt: Date.now() + LIST_CACHE_MS, rows };
+  return rows;
 }
 
 export function searchCompanyList(

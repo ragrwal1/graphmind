@@ -12,7 +12,9 @@
     "preseed:companies": "node scripts/preseed-companies.mjs",
     "airtable:webhooks:register": "node scripts/register-airtable-webhooks.mjs",
     "embed:companies": "node scripts/embed-companies.mjs",
-    "embed:companies:reembed": "node scripts/embed-companies.mjs --reembed"
+    "embed:companies:reembed": "node scripts/embed-companies.mjs --reembed",
+    "embed:companies:microservice": "node scripts/regenerate-company-embeddings.mjs",
+    "embed:companies:microservice:reembed": "node scripts/regenerate-company-embeddings.mjs --reembed"
   },
   "dependencies": {
     "@types/node": "^20.12.12",

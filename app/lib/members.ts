@@ -23,9 +23,17 @@ const normalize = (value: string) => value.toLowerCase().trim();
 const fieldIncludes = (field: string | null | undefined, query: string) =>
   Boolean(field && normalize(field).includes(query));
 
+const LIST_CACHE_MS = Number(process.env.SEARCH_LIST_CACHE_MS ?? "30000");
+
+let membersCache: { expiresAt: number; rows: MemberSeed[] } | null = null;
+
 export async function getMembers() {
   if (!hasSupabaseAdminConfig()) {
     return members;
+  }
+
+  if (membersCache && membersCache.expiresAt > Date.now()) {
+    return membersCache.rows;
   }
 
   const select = "airtable_id,name,aliases,related_organization,email,linkedin,raw_hash";
@@ -38,7 +46,9 @@ export async function getMembers() {
     return members;
   }
 
-  return (await response.json()) as MemberSeed[];
+  const rows = (await response.json()) as MemberSeed[];
+  membersCache = { expiresAt: Date.now() + LIST_CACHE_MS, rows };
+  return rows;
 }
 
 export function getSeedMembers() {

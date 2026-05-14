@@ -81,6 +81,11 @@ const LOCAL_SEMANTIC_THRESHOLD = Number(
   process.env.SEARCH_SEMANTIC_THRESHOLD ?? "0.1"
 );
 const SEMANTIC_PAGE_SIZE = 1000;
+const ENABLE_LOCAL_SEMANTIC_FALLBACK =
+  process.env.SEARCH_ENABLE_LOCAL_VECTOR_FALLBACK === "true";
+
+let companiesSemanticRpcUnavailable = false;
+let membersSemanticRpcUnavailable = false;
 
 type SemanticChannelStatus = "skipped" | "ok" | "unavailable" | "error";
 
@@ -169,7 +174,15 @@ async function semanticSearchCompanies(
     if (!res.ok) {
       const errorText = await res.text();
       if (res.status === 404) {
-        return semanticSearchCompaniesLocal(embedding, matchCount);
+        companiesSemanticRpcUnavailable = true;
+        if (ENABLE_LOCAL_SEMANTIC_FALLBACK) {
+          return semanticSearchCompaniesLocal(embedding, matchCount);
+        }
+        return {
+          rows: [],
+          status: "unavailable",
+          error: formatRpcError("search_companies_semantic", res.status, errorText),
+        };
       }
       return {
         rows: [],
@@ -265,7 +278,15 @@ async function semanticSearchMembers(
     if (!res.ok) {
       const errorText = await res.text();
       if (res.status === 404) {
-        return semanticSearchMembersLocal(embedding, matchCount);
+        membersSemanticRpcUnavailable = true;
+        if (ENABLE_LOCAL_SEMANTIC_FALLBACK) {
+          return semanticSearchMembersLocal(embedding, matchCount);
+        }
+        return {
+          rows: [],
+          status: "unavailable",
+          error: formatRpcError("search_members_semantic", res.status, errorText),
+        };
       }
       return {
         rows: [],
@@ -383,11 +404,14 @@ export async function hybridSearch(
   const t0 = Date.now();
   const query = rawQuery.trim();
 
-  const canSemantic =
-    query.length > 2 && hasSupabaseAdminConfig() && hasOpenAIConfig();
-
   const wantInvestors = types.includes("investor");
   const wantCompanies = types.includes("company");
+  const hasSemanticChannel =
+    ENABLE_LOCAL_SEMANTIC_FALLBACK ||
+    (wantCompanies && !companiesSemanticRpcUnavailable) ||
+    (wantInvestors && !membersSemanticRpcUnavailable);
+  const canSemantic =
+    query.length > 2 && hasSemanticChannel && hasSupabaseAdminConfig() && hasOpenAIConfig();
 
   // ── 1. Keyword search ────────────────────────────────────────────────────────
   const t1 = Date.now();

@@ -269,6 +269,8 @@ async function upsertRecord(entity: SyncEntity, record: AirtableRecord) {
     p_source_organization: company.source_organization,
     p_raw_hash: company.raw_hash,
   });
+  // TODO: Once Airtable webhooks are live, call regenerateCompanyEmbedding(company.airtable_id)
+  // for written company rows so semantic search stays precomputed after every sync.
   return { skipped: false, written };
 }
 
